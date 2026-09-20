@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# The Ableton Extensions SDK is vendored here, not written here: ~1.5 MB of
+# generated API documentation plus its fonts, CSS and JS. Without this,
+# GitHub counts all of it as the repository's own source and labels the
+# project HTML, which buries the TypeScript that is the actual work.
+extensions-sdk-1.0.0-beta.0/** linguist-vendored=true
